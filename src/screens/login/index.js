@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {SafeAreaView} from 'react-native';
+import {SafeAreaView, View, Text} from 'react-native';
 import styles from './styles';
 
 class Login extends Component {
@@ -7,6 +7,18 @@ class Login extends Component {
     return (
       <SafeAreaView style={styles.container}>
         <View>
+          <Text>Login</Text>
+          <Text>Login</Text>
+          <Text>Login</Text>
+          <Text>Login</Text>
+          <Text>Login</Text>
+          <Text>Login</Text>
+          <Text>Login</Text>
+          <Text>Login</Text>
+
+          <Text>Login</Text>
+          <Text>Login</Text>
+          <Text>Login</Text>
           <Text>Login</Text>
         </View>
       </SafeAreaView>

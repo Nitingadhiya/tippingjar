@@ -30,8 +30,6 @@ import {Provider as PaperProvider} from 'react-native-paper';
 // import {StackNavigator} from '../src/screens/stack';
 import {StackNavigator} from './root-navigator';
 
-const Drawer = createDrawerNavigator();
-
 const App: () => React$Node = () => {
   return (
     <PaperProvider>

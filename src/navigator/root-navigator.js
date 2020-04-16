@@ -6,14 +6,7 @@ const Stack = createStackNavigator();
 export const StackNavigator = () => {
   return (
     <Stack.Navigator initialRouteName="Splash" headerMode="none">
-      <Stack.Screen
-        name="Splash"
-        component={Splash}
-        options={{
-          headerTitle: 'Tweet',
-          headerTransparent: true,
-        }}
-      />
+      <Stack.Screen name="Splash" component={Splash} />
     </Stack.Navigator>
   );
 };

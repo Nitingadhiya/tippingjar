@@ -1,4 +1,4 @@
-import {Color} from '../../common/styles';
+//import {Color} from '../../common/styles';
 
 export default styles = {
   container: {
