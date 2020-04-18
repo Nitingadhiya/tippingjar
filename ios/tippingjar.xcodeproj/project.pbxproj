@@ -20,6 +20,10 @@
 		669D4C04EC65AF223312266B /* libPods-tippingjar-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BEE846498CA08CE5D3548A /* libPods-tippingjar-tvOSTests.a */; };
 		6F29149CABEDDD6F3C55915E /* libPods-tippingjar-tippingjarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE7D72382E8EF40EE396B60 /* libPods-tippingjar-tippingjarTests.a */; };
 		9AF506A16703C31D7ECE4464 /* libPods-tippingjar-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3FA785EB5CCE53CF485671 /* libPods-tippingjar-tvOS.a */; };
+		E62000622449EADC008342C7 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E620005E2449EADC008342C7 /* Rubik-Medium.ttf */; };
+		E62000632449EADC008342C7 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E620005F2449EADC008342C7 /* Rubik-Regular.ttf */; };
+		E62000642449EADC008342C7 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E62000602449EADC008342C7 /* Rubik-Bold.ttf */; };
+		E62000652449EADC008342C7 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E62000612449EADC008342C7 /* Rubik-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		BDE7D72382E8EF40EE396B60 /* libPods-tippingjar-tippingjarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tippingjar-tippingjarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C252EADBF53887A11B4CB6EA /* Pods-tippingjar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tippingjar.debug.xcconfig"; path = "Target Support Files/Pods-tippingjar/Pods-tippingjar.debug.xcconfig"; sourceTree = "<group>"; };
 		C3D279A0937F8A0BE29E09AC /* Pods-tippingjar-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tippingjar-tvOS.release.xcconfig"; path = "Target Support Files/Pods-tippingjar-tvOS/Pods-tippingjar-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E620005E2449EADC008342C7 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Medium.ttf"; path = "../src/common/assets/fonts/files/Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		E620005F2449EADC008342C7 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Regular.ttf"; path = "../src/common/assets/fonts/files/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		E62000602449EADC008342C7 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Bold.ttf"; path = "../src/common/assets/fonts/files/Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		E62000612449EADC008342C7 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Light.ttf"; path = "../src/common/assets/fonts/files/Rubik-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -159,6 +167,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				E62000602449EADC008342C7 /* Rubik-Bold.ttf */,
+				E62000612449EADC008342C7 /* Rubik-Light.ttf */,
+				E620005E2449EADC008342C7 /* Rubik-Medium.ttf */,
+				E620005F2449EADC008342C7 /* Rubik-Regular.ttf */,
 				13B07FAE1A68108700A75B9A /* tippingjar */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* tippingjarTests */,
@@ -194,7 +206,6 @@
 				324E648BD6597B6AC80FEA97 /* Pods-tippingjar-tvOSTests.debug.xcconfig */,
 				0DCD29C5E8F8E2BBBF5EF8BA /* Pods-tippingjar-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,6 +351,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62000622449EADC008342C7 /* Rubik-Medium.ttf in Resources */,
+				E62000632449EADC008342C7 /* Rubik-Regular.ttf in Resources */,
+				E62000642449EADC008342C7 /* Rubik-Bold.ttf in Resources */,
+				E62000652449EADC008342C7 /* Rubik-Light.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -375,7 +390,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;

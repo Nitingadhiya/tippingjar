@@ -13,6 +13,11 @@ const images = {
   tabPayoutsInActive: require('./files/tab/inactive/ic_tab_payouts.png'),
   tabProfileInActive: require('./files/tab/inactive/ic_tab_profile.png'),
   tabTransactionInActive: require('./files/tab/inactive/ic_tab_transaction.png'),
+
+  backIcon: require('./files/back-icon/ic_nav_back_button.png'),
+
+  fb_login: require('./files/social-login/ic_login_facebook.png'),
+  ga_login: require('./files/social-login/ic_login_google.png'),
 };
 
 export default images;
